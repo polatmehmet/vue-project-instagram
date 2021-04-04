@@ -1,8 +1,11 @@
 <template>
   <div class="home">
     <div class="teimeline">
-      <Avatar :size="120" />
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo cupiditate culpa sit nam error, nostrum dignissimos quisquam voluptatem? Veritatis nihil molestiae in optio? Eveniet, laboriosam iste quaerat autem rerum modi?</p>
+      <Post />
+      <br>
+      <br>
+      <br>
+      <br>
     </div>
     <div class="sidebar">
       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo cupiditate culpa sit nam error, nostrum dignissimos quisquam voluptatem? Veritatis nihil molestiae in optio? Eveniet, laboriosam iste quaerat autem rerum modi?</p>
@@ -13,12 +16,12 @@
 </template>
 
 <script>
-import Avatar from '@/components/Avatar';
+import Post from '@/components/Post';
 
 export default {
   name: "Home",
   components: {
-    Avatar
+    Post,
   },
 };
 </script>
